@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/GetBaking/static/css/main.5e7f8695.css",
-    "main.js": "/GetBaking/static/js/main.7a6239f1.js",
+    "main.js": "/GetBaking/static/js/main.30c5d330.js",
     "static/media/getbakinglogo.png": "/GetBaking/static/media/getbakinglogo.1ca82dd21ba49c9e1c12.png",
     "index.html": "/GetBaking/index.html",
     "main.5e7f8695.css.map": "/GetBaking/static/css/main.5e7f8695.css.map",
-    "main.7a6239f1.js.map": "/GetBaking/static/js/main.7a6239f1.js.map"
+    "main.30c5d330.js.map": "/GetBaking/static/js/main.30c5d330.js.map"
   },
   "entrypoints": [
     "static/css/main.5e7f8695.css",
-    "static/js/main.7a6239f1.js"
+    "static/js/main.30c5d330.js"
   ]
 }
