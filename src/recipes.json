@@ -3,6 +3,7 @@
         "uuid": "fa0a597e-63e0-45fb-bca0-d5226d1d1124",
         "created": "2021-08-03T11:42:20.910175+00:00",
         "author": "bexlovestobake",
+        "authorpicture": "https://images.pexels.com/photos/789303/pexels-photo-789303.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "name": "Easy Mince Pies",
         "difficulty": "Easy",
         "cook-time": "PT20M",
@@ -92,6 +93,7 @@
         "uuid": "54f48df0-11db-440c-a22d-0b4c1ba00fcd",
         "created": "2021-09-12T10:32:19.255468+00:00",
         "author": "MrBarryLewis",
+        "authorpicture": "https://images.pexels.com/photos/10634614/pexels-photo-10634614.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "name": "Soft Burger Buns",
         "difficulty": "Easy",
         "cook-time": "PT12M",
@@ -184,6 +186,7 @@
         "uuid": "206879ef-f812-4822-b1ef-d159a0680a71",
         "created": "2021-10-11T14:55:48.265874+00:00",
         "author": "bexlovestobake",
+        "authorpicture": "https://images.pexels.com/photos/789303/pexels-photo-789303.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "name": "Chocolate Orange Babka",
         "difficulty": "Medium",
         "cook-time": "PT40M",
@@ -310,13 +313,16 @@
         "uuid": "2a642266-2434-4209-92f9-1fff1d43642f",
         "created": "2021-10-11T12:05:40.548782+00:00",
         "author": "bexlovestobake",
+        "authorpicture": "https://images.pexels.com/photos/789303/pexels-photo-789303.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "name": "Orange Syrup",
         "difficulty": "Easy",
         "cook-time": "PT10M",
         "prep-time": "PT5M",
         "yield": "Around 250ml or 1 cup",
         "description": "Make an orange syrup, ideal for pouring over cakes and babkas.",
-        "images": [],
+        "images": [
+            "https://www.inspirationforall.de/wp-content/uploads/2022/08/orangensirup-selber-machen-rezept-775x775-1.jpg"
+        ],
         "ingredients": [
             {
                 "ingredient": "caster sugar",
