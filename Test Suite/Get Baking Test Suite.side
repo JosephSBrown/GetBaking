@@ -1,0 +1,2880 @@
+{
+  "id": "18b46bf5-e1fb-484b-b318-50ce59e52b88",
+  "version": "2.0",
+  "name": "Get Baking! Test Suite",
+  "url": "https://josephsbrown.github.io/GetBaking/",
+  "tests": [{
+    "id": "706078aa-669d-44c5-b8cf-7e7fc3115d20",
+    "name": "Navbar Navigation Test",
+    "commands": [{
+      "id": "65fbcce9-8f93-46b6-8006-a7c38c9a54c2",
+      "comment": "",
+      "command": "open",
+      "target": "https://josephsbrown.github.io/GetBaking",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd43dd9f-d7ba-4364-8934-6dc622a79cd4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "81ba9277-a29d-43e5-8b92-e383ce01d167",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Blog",
+      "targets": [
+        ["linkText=Blog", "linkText"],
+        ["css=.md\\3A flex", "css:finder"],
+        ["xpath=//a[contains(text(),'Blog')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div[2]/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/GetBaking/blog')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Blog')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b94e7038-904f-4f1a-b826-bb46df5ea999",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-5\\/6",
+      "targets": [
+        ["css=.h-5\\/6", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7eca05d4-aa76-48f2-8a26-4e5236704408",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.underline",
+      "targets": [
+        ["css=.underline", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Blog')]", "xpath:innerText"]
+      ],
+      "value": "Blog"
+    }, {
+      "id": "75769112-c579-4b46-91bb-8bd1da16da00",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Recipes",
+      "targets": [
+        ["linkText=Recipes", "linkText"],
+        ["css=.hidden:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Recipes')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div[2]/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/GetBaking/recipes')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Recipes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1aa0e72e-485c-4feb-9a85-e55dffbde1a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-xl",
+      "targets": [
+        ["css=.text-xl", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Recipes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c479a895-d2f7-469e-9e0d-f71c6aabab70",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.text-xl",
+      "targets": [
+        ["css=.text-xl", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Recipes')]", "xpath:innerText"]
+      ],
+      "value": "Recipes"
+    }, {
+      "id": "63eb43c5-ddc5-492f-bdf3-8ad3b090bc0d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=.lg\\3A flex", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/GetBaking')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb77fe0e-594b-4578-bd07-6b7fed13672c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lg\\3Aitems-center",
+      "targets": [
+        ["css=.lg\\3Aitems-center", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0c589b3-2326-47df-8461-21aa9110a26f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.h-5\\/6:nth-child(2) > .text-lg",
+      "targets": [
+        ["css=.h-5\\/6:nth-child(2) > .text-lg", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div[2]/h1", "xpath:idRelative"],
+        ["xpath=//div[2]/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Random Recipe Selector')]", "xpath:innerText"]
+      ],
+      "value": "Random Recipe Selector"
+    }, {
+      "id": "b158ae16-9b96-4831-9ee1-03ca74e32781",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Recipes",
+      "targets": [
+        ["linkText=Recipes", "linkText"],
+        ["css=.hidden:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Recipes')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div[2]/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/GetBaking/recipes')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Recipes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec5e7b6a-073f-4785-be62-49cdf5d864d9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Recipes",
+      "targets": [
+        ["linkText=Recipes", "linkText"],
+        ["css=.hidden:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Recipes')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div[2]/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/GetBaking/recipes')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Recipes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c44abdf-60ad-49f8-9215-981eb7718a95",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-24",
+      "targets": [
+        ["css=.h-24", "css:finder"],
+        ["xpath=//img[@alt='Get Baking Logo']", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74ded7e7-7f55-4864-9eed-102659410972",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-5\\/6:nth-child(2) > .text-lg",
+      "targets": [
+        ["css=.h-5\\/6:nth-child(2) > .text-lg", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div[2]/h1", "xpath:idRelative"],
+        ["xpath=//div[2]/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Random Recipe Selector')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd6bb497-bc2e-4ba5-98e3-182cdae986a8",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.h-5\\/6:nth-child(2) > .text-lg",
+      "targets": [
+        ["css=.h-5\\/6:nth-child(2) > .text-lg", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div[2]/h1", "xpath:idRelative"],
+        ["xpath=//div[2]/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Random Recipe Selector')]", "xpath:innerText"]
+      ],
+      "value": "Random Recipe Selector"
+    }]
+  }, {
+    "id": "b67cb933-6f16-48a2-8758-5b21356f3bfe",
+    "name": "Home Random Recipe Test",
+    "commands": [{
+      "id": "1ab7052f-2380-4ed1-b9a3-d787e7534386",
+      "comment": "",
+      "command": "open",
+      "target": "https://josephsbrown.github.io/GetBaking/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7756a8cf-2936-4605-aa2f-85bae67666e4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb666838-3251-48a1-aeaa-6187290d35e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex-wrap:nth-child(2) > .ml-6 > .bg-pink-400",
+      "targets": [
+        ["css=.flex-wrap:nth-child(2) > .ml-6 > .bg-pink-400", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Generate New Recipe')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "23125be3-f8cc-4b8c-a5be-02c278441c02",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-5\\/6:nth-child(2)",
+      "targets": [
+        ["css=.h-5\\/6:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05e02ad2-1fa4-4ebb-a5cd-5ebc8b219f5a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.h-5\\/6:nth-child(2) > .text-lg",
+      "targets": [
+        ["css=.h-5\\/6:nth-child(2) > .text-lg", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div[2]/h1", "xpath:idRelative"],
+        ["xpath=//div[2]/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Random Recipe Selector')]", "xpath:innerText"]
+      ],
+      "value": "Random Recipe Selector"
+    }, {
+      "id": "aa0bdfce-e6f8-4d95-93e0-f86232b6725e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex-wrap:nth-child(2) > .ml-6 > .bg-pink-400",
+      "targets": [
+        ["css=.flex-wrap:nth-child(2) > .ml-6 > .bg-pink-400", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Generate New Recipe')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d8a0469-b4de-4d27-b4e6-9b83725c720c",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.md\\3A float-left > .h-36",
+      "targets": [
+        ["css=.md\\3A float-left > .h-36", "css:finder"],
+        ["xpath=//img[@alt='Chocolate Orange Babka']", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div[2]/div/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9be431f2-7b36-48da-9962-4f78aaf3f3b6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex-wrap:nth-child(2) > .ml-6 > .bg-pink-400",
+      "targets": [
+        ["css=.flex-wrap:nth-child(2) > .ml-6 > .bg-pink-400", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Generate New Recipe')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fc502e3-8ac7-4d0c-b4d3-a4324765bea8",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.md\\3A float-left > .h-36",
+      "targets": [
+        ["css=.md\\3A float-left > .h-36", "css:finder"],
+        ["xpath=//img[@alt='Easy Mince Pies']", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div[2]/div/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7681fa8d-f834-46d9-bc43-d861b8d0bdc6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex-wrap:nth-child(2) > .ml-6",
+      "targets": [
+        ["css=.flex-wrap:nth-child(2) > .ml-6", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4a1c6390-9d7f-4bfd-b557-37c34e37c900",
+    "name": "Footer Navigation Test",
+    "commands": [{
+      "id": "f31a3ee1-8bba-4421-bb9a-b0cead161fb6",
+      "comment": "",
+      "command": "open",
+      "target": "https://josephsbrown.github.io/GetBaking/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5f9af10-69d5-4e13-9f6a-caef996ef649",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc2b5055-6842-411e-9c5c-b165a6897fb4",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) > .hover\\3A bg-white",
+      "targets": [
+        ["css=li:nth-child(2) > .hover\\3A bg-white", "css:finder"],
+        ["xpath=(//a[contains(text(),'Blog')])[3]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[3]/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/GetBaking/blog')])[8]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2339f813-4184-435c-b05a-d9b545cbc7ca",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b0b3a1cd-6f4f-4d68-91c8-8bd86fdc5612",
+      "comment": "",
+      "command": "click",
+      "target": "css=.underline",
+      "targets": [
+        ["css=.underline", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Blog')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cf5fb21-bd3d-4357-aac5-dd1d2c0e8cca",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.underline",
+      "targets": [
+        ["css=.underline", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Blog')]", "xpath:innerText"]
+      ],
+      "value": "Blog"
+    }, {
+      "id": "0f343c4c-c86f-4e40-ac88-ccffaeb21746",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(3) > .hover\\3A bg-white",
+      "targets": [
+        ["css=li:nth-child(3) > .hover\\3A bg-white", "css:finder"],
+        ["xpath=(//a[contains(text(),'Recipes')])[3]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[3]/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/GetBaking/recipes')])[3]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4659f75-aa35-4ebc-a761-61d69bef008f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b9231c10-ded2-4969-a22f-e4af6916325e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-5\\/6",
+      "targets": [
+        ["css=.h-5\\/6", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c6b1b89-530a-4c5d-8e31-8398a60868dc",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.text-xl",
+      "targets": [
+        ["css=.text-xl", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Recipes')]", "xpath:innerText"]
+      ],
+      "value": "Recipes"
+    }, {
+      "id": "8f809704-cf67-4912-a5a6-6a4403604e89",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > .hover\\3A bg-white",
+      "targets": [
+        ["css=li:nth-child(1) > .hover\\3A bg-white", "css:finder"],
+        ["xpath=(//a[contains(text(),'Home')])[3]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[3]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/GetBaking')])[15]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9f541dd-7242-4ecd-9924-8dc2697c6027",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-5\\/6:nth-child(2) > .text-lg",
+      "targets": [
+        ["css=.h-5\\/6:nth-child(2) > .text-lg", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div[2]/h1", "xpath:idRelative"],
+        ["xpath=//div[2]/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Random Recipe Selector')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f496e5f2-a5f9-46a1-8930-e9e1878b54db",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.h-5\\/6:nth-child(2) > .text-lg",
+      "targets": [
+        ["css=.h-5\\/6:nth-child(2) > .text-lg", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div[2]/h1", "xpath:idRelative"],
+        ["xpath=//div[2]/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Random Recipe Selector')]", "xpath:innerText"]
+      ],
+      "value": "Random Recipe Selector"
+    }, {
+      "id": "3c880b09-5ad5-4392-ac07-86dd4dcb6bb3",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) > .hover\\3A bg-white",
+      "targets": [
+        ["css=li:nth-child(2) > .hover\\3A bg-white", "css:finder"],
+        ["xpath=(//a[contains(text(),'Blog')])[3]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[3]/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/GetBaking/blog')])[8]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "015e452f-814e-4534-a372-72f2169ee7ff",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a67f84b-4c0f-4889-bb0d-721b4e210124",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sm\\3A flex > .mb-4",
+      "targets": [
+        ["css=.sm\\3A flex > .mb-4", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/GetBaking')])[14]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "361e5a37-3c10-41a4-8848-703c4162e27f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-5\\/6:nth-child(2)",
+      "targets": [
+        ["css=.h-5\\/6:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70dc1247-12ef-4ad0-9038-daf8babeb357",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.h-5\\/6:nth-child(2) > .text-lg",
+      "targets": [
+        ["css=.h-5\\/6:nth-child(2) > .text-lg", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div[2]/h1", "xpath:idRelative"],
+        ["xpath=//div[2]/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Random Recipe Selector')]", "xpath:innerText"]
+      ],
+      "value": "Random Recipe Selector"
+    }]
+  }, {
+    "id": "191061df-690f-45c6-bc9c-9a2dc5242065",
+    "name": "Footer Social Media Test",
+    "commands": [{
+      "id": "8ce432fc-8357-4007-b4e3-24565854bcb4",
+      "comment": "",
+      "command": "open",
+      "target": "https://josephsbrown.github.io/GetBaking",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4016abc6-4e21-4b58-82e4-d8b7def61e35",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c60f50df-39bd-48fa-8fca-f1a970ac610e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.fa-square-facebook",
+      "targets": [
+        ["css=.fa-square-facebook", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div[2]/ul/li/a/i", "xpath:idRelative"],
+        ["xpath=//li/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6b5e335-9f8d-491c-a1e2-89868d4dd141",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.fa-instagram",
+      "targets": [
+        ["css=.fa-instagram", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div[2]/ul/li[2]/a/i", "xpath:idRelative"],
+        ["xpath=//li[2]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e30f82e-3de6-46cc-9bf3-82bda7f20512",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.fa-regular",
+      "targets": [
+        ["css=.fa-regular", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div[2]/ul/li[3]/a/i", "xpath:idRelative"],
+        ["xpath=//li[3]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2acd3756-66bf-45d0-8004-40e03ddee5ef",
+    "name": "Home Blog Links",
+    "commands": [{
+      "id": "c8e55580-97b3-4330-a7c0-375dbdaa24f7",
+      "comment": "",
+      "command": "open",
+      "target": "https://josephsbrown.github.io/GetBaking/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d061f89-0aed-47b7-bc84-aeff14d237f2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86372811-43b1-468b-a0b6-a4058b1c8486",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-full:nth-child(2) > .flex-wrap a:nth-child(1) .drop-shadow-2xl",
+      "targets": [
+        ["css=.w-full:nth-child(2) > .flex-wrap a:nth-child(1) .drop-shadow-2xl", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div/div/div/a/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e84164d-ea56-4580-bbf6-fa2291922f0d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-5\\/6",
+      "targets": [
+        ["css=.h-5\\/6", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d53a6307-dd99-4420-86d2-6341c0884535",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.text-xl:nth-child(1)",
+      "targets": [
+        ["css=.text-xl:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Do You Make These 6 Common Baking Mistakes?')]", "xpath:innerText"]
+      ],
+      "value": "Do You Make These 6 Common Baking Mistakes?"
+    }, {
+      "id": "23b816bf-1dff-498a-aeff-2f4604d26dfc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover\\3Ano-underline > .self-center",
+      "targets": [
+        ["css=.hover\\3Ano-underline > .self-center", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Get Baking!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d46a47a-1e87-42a4-b0af-4e68d1e53517",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.hover\\3Ano-underline > .self-center",
+      "targets": [
+        ["css=.hover\\3Ano-underline > .self-center", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Get Baking!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bc1c862-1624-46df-ac0b-5a656c05e38d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-full:nth-child(2) > .flex-wrap:nth-child(1) a:nth-child(2) .h-36:nth-child(1)",
+      "targets": [
+        ["css=.w-full:nth-child(2) > .flex-wrap:nth-child(1) a:nth-child(2) .h-36:nth-child(1)", "css:finder"],
+        ["xpath=//img[@alt='24 Hours to Improving Baking']", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div/div/div/a[2]/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//a[2]/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1251c7b-4646-45a0-ad47-878994aa80ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-xl:nth-child(1)",
+      "targets": [
+        ["css=.text-xl:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'24 Hours to Improving Baking')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4f0d4c9-7219-454c-8649-32163f12c7d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-xl:nth-child(1)",
+      "targets": [
+        ["css=.text-xl:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'24 Hours to Improving Baking')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0444d883-2eb9-47b9-bed6-da46a0c89eb7",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.text-xl:nth-child(1)",
+      "targets": [
+        ["css=.text-xl:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'24 Hours to Improving Baking')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "61196c67-304d-4441-84fe-6a0b561d2ea9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-xl:nth-child(1)",
+      "targets": [
+        ["css=.text-xl:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'24 Hours to Improving Baking')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a3019a6-aecd-4e6c-a94f-2c8c1c2731de",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.text-xl:nth-child(1)",
+      "targets": [
+        ["css=.text-xl:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'24 Hours to Improving Baking')]", "xpath:innerText"]
+      ],
+      "value": "24 Hours to Improving Baking"
+    }, {
+      "id": "931da363-adfa-4838-827c-a93e1b3a08c8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Get Baking!",
+      "targets": [
+        ["linkText=Get Baking!", "linkText"],
+        ["css=.float-left > .flex", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/GetBaking')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Get Baking!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf295066-2603-46ac-b6e8-237fa58e6ce9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Get Baking!",
+      "targets": [
+        ["linkText=Get Baking!", "linkText"],
+        ["css=.float-left > .flex", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/GetBaking')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Get Baking!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "40ecd859-44d2-47b3-8556-b019cb92ab7f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-full:nth-child(2) > .flex-wrap:nth-child(1) a:nth-child(3) .h-36:nth-child(1)",
+      "targets": [
+        ["css=.w-full:nth-child(2) > .flex-wrap:nth-child(1) a:nth-child(3) .h-36:nth-child(1)", "css:finder"],
+        ["xpath=//img[@alt='11 Useful Tools For Baking']", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div/div/div/a[3]/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//a[3]/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f87188c4-21c9-49d5-81a8-1ba8b8705381",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-xl:nth-child(1)",
+      "targets": [
+        ["css=.text-xl:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'11 Useful Tools For Baking')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a28724aa-92bc-4305-9778-d9988ac3a78a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.text-xl:nth-child(1)",
+      "targets": [
+        ["css=.text-xl:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'11 Useful Tools For Baking')]", "xpath:innerText"]
+      ],
+      "value": "11 Useful Tools For Baking"
+    }, {
+      "id": "ccbeea9d-63e3-4c76-8638-6e994a86bb0d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Get Baking!",
+      "targets": [
+        ["linkText=Get Baking!", "linkText"],
+        ["css=.float-left > .flex", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/GetBaking')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Get Baking!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1121138f-eb51-4baf-b18c-261f2bf0ad71",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Get Baking!",
+      "targets": [
+        ["linkText=Get Baking!", "linkText"],
+        ["css=.float-left > .flex", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/GetBaking')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Get Baking!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f647fba7-0ce8-4add-af3f-cf0ee28a7e20",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-full:nth-child(2) > .flex-wrap:nth-child(1) a:nth-child(4) .block:nth-child(1)",
+      "targets": [
+        ["css=.w-full:nth-child(2) > .flex-wrap:nth-child(1) a:nth-child(4) .block:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div/div/div/a[4]/div/div/div[2]/h1", "xpath:idRelative"],
+        ["xpath=//a[4]/div/div/div[2]/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'18 Crucial Tactics for Baking')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9953591d-c9a6-48ba-9f82-9215892fbcbc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-5\\/6",
+      "targets": [
+        ["css=.h-5\\/6", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b313602-1a0f-47bf-a152-628156a5d2c0",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.text-xl:nth-child(1)",
+      "targets": [
+        ["css=.text-xl:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'18 Crucial Tactics for Baking')]", "xpath:innerText"]
+      ],
+      "value": "18 Crucial Tactics for Baking"
+    }, {
+      "id": "aacb5800-a49b-4e6a-806d-f458223a53c3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Get Baking!",
+      "targets": [
+        ["linkText=Get Baking!", "linkText"],
+        ["css=.float-left > .flex", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/GetBaking')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Get Baking!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3a008fd-c129-4d50-872f-e8871a125968",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Get Baking!",
+      "targets": [
+        ["linkText=Get Baking!", "linkText"],
+        ["css=.float-left > .flex", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/GetBaking')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Get Baking!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e30a7120-2e1c-4090-b403-486c501909ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-full:nth-child(2) > .flex-wrap .flex > .bg-pink-400",
+      "targets": [
+        ["css=.w-full:nth-child(2) > .flex-wrap .flex > .bg-pink-400", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div/div/a/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'View More Posts...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d71a1b0b-11c6-4c3e-8000-f2dc5c7f08a6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d5a7c68-df6b-4c89-8320-6903f97fdbc4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-5\\/6",
+      "targets": [
+        ["css=.h-5\\/6", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba519925-11fc-424c-b794-5d7aaa4769ac",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.underline",
+      "targets": [
+        ["css=.underline", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Blog')]", "xpath:innerText"]
+      ],
+      "value": "Blog"
+    }]
+  }, {
+    "id": "8ccf56b5-779c-4999-8bd2-63fdec1a8bf3",
+    "name": "Footer Hidden Link",
+    "commands": [{
+      "id": "4dde9919-dbe5-4a55-a215-5202dc625922",
+      "comment": "",
+      "command": "open",
+      "target": "https://josephsbrown.github.io/GetBaking/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fabd1210-4c1c-44f4-a316-07da79147954",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8255e85-afa9-491a-965b-51a872484c62",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Get Baking",
+      "targets": [
+        ["linkText=Get Baking", "linkText"],
+        ["css=.hover\\3Aunderline:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Get Baking')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[3]/a/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/GetBaking')])[30]", "xpath:href"],
+        ["xpath=//a/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cafacbed-3561-4a6b-b63e-f48b68051130",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) > .hover\\3A bg-white",
+      "targets": [
+        ["css=li:nth-child(2) > .hover\\3A bg-white", "css:finder"],
+        ["xpath=(//a[contains(text(),'Blog')])[3]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[3]/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/GetBaking/blog')])[8]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c0bd958-8ae8-43b6-a6e3-20549935c8a0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "635ebddd-4269-4375-8ffc-f0d4b5c6b986",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Get Baking",
+      "targets": [
+        ["linkText=Get Baking", "linkText"],
+        ["css=.hover\\3Aunderline:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Get Baking')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[3]/a/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/GetBaking')])[18]", "xpath:href"],
+        ["xpath=//a/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "915cd3e2-6c7b-4bd4-bf01-c087cc600b32",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-5\\/6:nth-child(2)",
+      "targets": [
+        ["css=.h-5\\/6:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "813b4ebe-a91a-4108-a0f9-888d17e07882",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.h-5\\/6:nth-child(2) > .text-lg",
+      "targets": [
+        ["css=.h-5\\/6:nth-child(2) > .text-lg", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div[2]/h1", "xpath:idRelative"],
+        ["xpath=//div[2]/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Random Recipe Selector')]", "xpath:innerText"]
+      ],
+      "value": "Random Recipe Selector"
+    }]
+  }, {
+    "id": "0bdc363f-e0b4-4bf5-83a2-4e52dfd61732",
+    "name": "Sidebar Navigation Test",
+    "commands": [{
+      "id": "0ed5903b-55af-484c-9d02-6a89e2ac960a",
+      "comment": "",
+      "command": "open",
+      "target": "https://josephsbrown.github.io/GetBaking/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08917ddc-88b0-4221-9ef8-8b2052f234de",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09afb8ae-32d3-4519-800b-fe5c571044cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-solid",
+      "targets": [
+        ["css=.fa-solid", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div[2]/div/a[4]/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fef1fded-cd56-4371-b6df-110f69bda8c3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Our Aim",
+      "targets": [
+        ["linkText=Our Aim", "linkText"],
+        ["css=.px-3:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Our Aim')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/nav[2]/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/GetBaking/about')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Our Aim')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b18ad89-cc90-491d-ab8a-3572c766a3eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-5\\/6",
+      "targets": [
+        ["css=.h-5\\/6", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5597655-5d0b-494e-8eec-eb6c8ea3a483",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.text-xl",
+      "targets": [
+        ["css=.text-xl", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Our Aim')]", "xpath:innerText"]
+      ],
+      "value": "Our Aim"
+    }, {
+      "id": "7b305fc8-a544-4917-9834-48ac499a0c17",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-solid",
+      "targets": [
+        ["css=.fa-solid", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div[2]/div/a[4]/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04eaa41a-2611-4a20-9bc3-ca63de6986b9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contact Us",
+      "targets": [
+        ["linkText=Contact Us", "linkText"],
+        ["css=.px-3:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Contact Us')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/nav[2]/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/GetBaking/contact')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Contact Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8de44f97-ff74-48b8-babd-56ec018a5ad9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-5\\/6",
+      "targets": [
+        ["css=.h-5\\/6", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d57ea05f-9212-4398-aac1-3fba41a7396b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.text-xl",
+      "targets": [
+        ["css=.text-xl", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Contact Us')]", "xpath:innerText"]
+      ],
+      "value": "Contact Us"
+    }, {
+      "id": "ee0f98f8-5ef7-4699-8305-8606ed8a3cc3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-24",
+      "targets": [
+        ["css=.h-24", "css:finder"],
+        ["xpath=//img[@alt='Get Baking Logo']", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4e62c62-f345-4894-ad80-9e4b31123207",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-solid",
+      "targets": [
+        ["css=.fa-solid", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div[2]/div/a[4]/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3623d91-b485-4b32-a9a4-e0ac507ad206",
+      "comment": "",
+      "command": "click",
+      "target": "css=.py-2:nth-child(4)",
+      "targets": [
+        ["css=.py-2:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div[2]/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "357edb0e-672f-4957-a9e9-dc3e0dca958c",
+    "name": "Home Our Aim Test",
+    "commands": [{
+      "id": "010f4e3b-ff98-47af-98ca-7a648649c0bb",
+      "comment": "",
+      "command": "open",
+      "target": "https://josephsbrown.github.io/GetBaking/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "78063bb9-04ed-451e-a1ee-e6b85d12447c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20bde5de-0525-4526-a259-5fc21cfc4d0c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-pink-400:nth-child(2)",
+      "targets": [
+        ["css=.bg-pink-400:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/a/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Click Me!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "92fb83d9-95e9-4fc9-bd0d-654daf590d8a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-5\\/6",
+      "targets": [
+        ["css=.h-5\\/6", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a2dfb71-e80e-4f71-b018-4397283780d6",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.text-xl",
+      "targets": [
+        ["css=.text-xl", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Our Aim')]", "xpath:innerText"]
+      ],
+      "value": "Our Aim"
+    }, {
+      "id": "ed995408-f68e-4a95-b132-528b615044cd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Get Baking!",
+      "targets": [
+        ["linkText=Get Baking!", "linkText"],
+        ["css=.float-left > .flex", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/GetBaking')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Get Baking!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b193aa47-a3d9-4137-8894-177eaef027d6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Get Baking!",
+      "targets": [
+        ["linkText=Get Baking!", "linkText"],
+        ["css=.float-left > .flex", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/GetBaking')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Get Baking!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0aa0ebbc-9b78-4565-8a08-ef680aac5d18",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-11\\/12:nth-child(1)",
+      "targets": [
+        ["css=.w-11\\/12:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50c7c51e-ddf6-408b-b66c-487940aae563",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.w-11\\/12:nth-child(1) > .text-lg",
+      "targets": [
+        ["css=.w-11\\/12:nth-child(1) > .text-lg", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Our Mission')]", "xpath:innerText"]
+      ],
+      "value": "Our Mission"
+    }, {
+      "id": "d7c498bd-5fee-46f8-86a0-7703e166ec71",
+      "comment": "",
+      "command": "click",
+      "target": "css=.py-1",
+      "targets": [
+        ["css=.py-1", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ef2499f-2816-47dc-99f8-a9643825a201",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.py-1",
+      "targets": [
+        ["css=.py-1", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": "At Get Baking! our mission is to provide amazingly simple, yet delicious recipes for bakers worldwide. Whether you're a beginner or a seasoned pro, we have something for everyone."
+    }, {
+      "id": "b90b5083-cebf-4f28-a8c9-e178d8cb9493",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.self-center:nth-child(1)",
+      "targets": [
+        ["css=.self-center:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Find Out More Here')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "aeba4442-2c36-45c5-86f3-f2c767bb0237",
+    "name": "Home Seasonal Recipe Test",
+    "commands": [{
+      "id": "ba0c3e12-17a6-4a4e-856b-00777207cc93",
+      "comment": "",
+      "command": "open",
+      "target": "https://josephsbrown.github.io/GetBaking/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8dc98d10-8ee5-4138-a304-a85664b97f0d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "856c057c-f437-49ef-b3bf-e25fcc210af2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-full:nth-child(3) a:nth-child(1) .h-36:nth-child(1)",
+      "targets": [
+        ["css=.w-full:nth-child(3) a:nth-child(1) .h-36:nth-child(1)", "css:finder"],
+        ["xpath=//img[@alt='Easy Mince Pies']", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[2]/div[3]/div/div/div/div/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/a/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e35c345e-1683-4a36-b41e-c433a69ea624",
+      "comment": "",
+      "command": "click",
+      "target": "css=.py-3 > .flex-wrap",
+      "targets": [
+        ["css=.py-3 > .flex-wrap", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3ac2353-4662-4448-824f-7759f9f6dd37",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.flex-wrap > .text-xl",
+      "targets": [
+        ["css=.flex-wrap > .text-xl", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Easy Mince Pies')]", "xpath:innerText"]
+      ],
+      "value": "Easy Mince Pies"
+    }, {
+      "id": "09e77709-c006-48af-a810-343ceff95518",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-24",
+      "targets": [
+        ["css=.h-24", "css:finder"],
+        ["xpath=//img[@alt='Get Baking Logo']", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e19c9173-6342-4c06-be49-1af61732b485",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-full:nth-child(3) a:nth-child(3) .h-36:nth-child(1)",
+      "targets": [
+        ["css=.w-full:nth-child(3) a:nth-child(3) .h-36:nth-child(1)", "css:finder"],
+        ["xpath=//img[@alt='Chocolate Orange Babka']", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[2]/div[3]/div/div/div/div/a[3]/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/a[3]/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9ec13d9-3eb6-4b02-beb6-cf73915da081",
+      "comment": "",
+      "command": "click",
+      "target": "css=.py-3 > .flex-wrap",
+      "targets": [
+        ["css=.py-3 > .flex-wrap", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4d72c49-287f-44a4-8dc8-fc54773fdd25",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.flex-wrap > .text-xl",
+      "targets": [
+        ["css=.flex-wrap > .text-xl", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Chocolate Orange Babka')]", "xpath:innerText"]
+      ],
+      "value": "Chocolate Orange Babka"
+    }, {
+      "id": "f00d9616-7f95-4d44-800c-c5152964dfcb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-24",
+      "targets": [
+        ["css=.h-24", "css:finder"],
+        ["xpath=//img[@alt='Get Baking Logo']", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbd3fde9-b733-480f-9738-e32cb6958801",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-full:nth-child(3) .flex > .bg-pink-400",
+      "targets": [
+        ["css=.w-full:nth-child(3) .flex > .bg-pink-400", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[3]/div/div/div/a/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'View More Recipes...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "768824d5-d4a9-43f3-9456-670e9d6a89b6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "33992709-36ae-4b8f-aa14-9b2024a45868",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-5\\/6",
+      "targets": [
+        ["css=.h-5\\/6", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d852b445-4d0f-4f0a-b61d-0094891e0161",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.text-xl",
+      "targets": [
+        ["css=.text-xl", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Recipes')]", "xpath:innerText"]
+      ],
+      "value": "Recipes"
+    }]
+  }, {
+    "id": "f7eb7302-088d-4789-9014-62e286b915f1",
+    "name": "Home Popular Recipe Test",
+    "commands": [{
+      "id": "1d8e84df-2fe5-44c8-82db-44f8bbf4cd50",
+      "comment": "",
+      "command": "open",
+      "target": "https://josephsbrown.github.io/GetBaking/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ea0836f-860a-4b97-8019-ac06d0744111",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b7e1faf-54cf-4198-ad5d-23e3476d9af2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-full:nth-child(4) a:nth-child(2) .drop-shadow-2xl",
+      "targets": [
+        ["css=.w-full:nth-child(4) a:nth-child(2) .drop-shadow-2xl", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[4]/div/div/div/div/a[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div/a[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "943b9510-4414-49f8-974e-68639e5ecfcb",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1400)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f3e0cb5-f317-4f15-b9eb-0a5c1a78926d",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.py-3 > .flex-wrap",
+      "targets": [
+        ["css=.py-3 > .flex-wrap", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": "171,42"
+    }, {
+      "id": "81bf25ba-ad27-4497-b966-f1d684ff2e57",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.py-3 > .flex-wrap",
+      "targets": [
+        ["css=.py-3 > .flex-wrap", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": "171,42"
+    }, {
+      "id": "2837048f-0a28-47e8-a710-714fa1937958",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.py-3 > .flex-wrap",
+      "targets": [
+        ["css=.py-3 > .flex-wrap", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": "171,42"
+    }, {
+      "id": "7cb08bb7-2ba3-48cc-9dd0-08622cd14979",
+      "comment": "",
+      "command": "click",
+      "target": "css=.py-3 > .flex-wrap",
+      "targets": [
+        ["css=.py-3 > .flex-wrap", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7381d16-9c84-46d6-92e0-029bfd8b484c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex-wrap > .text-xl",
+      "targets": [
+        ["css=.flex-wrap > .text-xl", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Soft Burger Buns')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "527ad972-7199-4953-bb29-56cc5b08b167",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.flex-wrap > .text-xl",
+      "targets": [
+        ["css=.flex-wrap > .text-xl", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Soft Burger Buns')]", "xpath:innerText"]
+      ],
+      "value": "Soft Burger Buns"
+    }, {
+      "id": "99667fae-bc5e-4d74-a41c-237bdae07432",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-24",
+      "targets": [
+        ["css=.h-24", "css:finder"],
+        ["xpath=//img[@alt='Get Baking Logo']", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8d17c7b-6239-4c94-af34-74dd76262d80",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.h-24",
+      "targets": [
+        ["css=.h-24", "css:finder"],
+        ["xpath=//img[@alt='Get Baking Logo']", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98d852a8-280a-4caa-b660-a20b067e3a4d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-full:nth-child(4) a:nth-child(4) .block:nth-child(1)",
+      "targets": [
+        ["css=.w-full:nth-child(4) a:nth-child(4) .block:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[4]/div/div/div/div/a[4]/div/div/div[2]/h1", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div/a[4]/div/div/div[2]/h1", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85909d00-abfd-48e2-8e98-d32fd714d5f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.py-3 > .flex-wrap",
+      "targets": [
+        ["css=.py-3 > .flex-wrap", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00fd5522-45e2-4f78-a612-023c842bb046",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.flex-wrap > .text-xl",
+      "targets": [
+        ["css=.flex-wrap > .text-xl", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Orange Syrup')]", "xpath:innerText"]
+      ],
+      "value": "Orange Syrup"
+    }, {
+      "id": "f434b802-1686-4fd9-9ba5-e9687148655e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-24",
+      "targets": [
+        ["css=.h-24", "css:finder"],
+        ["xpath=//img[@alt='Get Baking Logo']", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72866f7e-2c27-41eb-a908-b28518a1cd48",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.h-24",
+      "targets": [
+        ["css=.h-24", "css:finder"],
+        ["xpath=//img[@alt='Get Baking Logo']", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c0edf0d-ef90-4882-980d-b3edd4fe9352",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-full:nth-child(4) .flex > .bg-pink-400",
+      "targets": [
+        ["css=.w-full:nth-child(4) .flex > .bg-pink-400", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[4]/div/div/div/a/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/a/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "122a1e3f-3663-43ab-8a5b-34d3d360e4c5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79b1fa86-d8b6-40f0-afc7-875efc19fc29",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-5\\/6",
+      "targets": [
+        ["css=.h-5\\/6", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77ad3726-fe29-40bc-860b-e67602d5dc13",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.text-xl",
+      "targets": [
+        ["css=.text-xl", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Recipes')]", "xpath:innerText"]
+      ],
+      "value": "Recipes"
+    }, {
+      "id": "0ce0e439-6b67-4edf-b99b-7dbd6a3a8bf5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-24",
+      "targets": [
+        ["css=.h-24", "css:finder"],
+        ["xpath=//img[@alt='Get Baking Logo']", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4cef098d-1726-4b3d-9021-9351ec394615",
+    "name": "Blog List Link Test",
+    "commands": [{
+      "id": "611d413f-b430-4596-90fd-4234e40803a0",
+      "comment": "",
+      "command": "open",
+      "target": "https://josephsbrown.github.io/GetBaking/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "140bcb4a-bb37-46b9-b9f0-9ac9c2b979d5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f34f9320-7a0f-4122-8214-711037ff7a95",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Blog",
+      "targets": [
+        ["linkText=Blog", "linkText"],
+        ["css=.md\\3A flex", "css:finder"],
+        ["xpath=//a[contains(text(),'Blog')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div[2]/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/GetBaking/blog')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Blog')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6820afe0-4027-42e9-b85d-cbd23acb1b6b",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(1) > .flow-root .block:nth-child(1)",
+      "targets": [
+        ["css=a:nth-child(1) > .flow-root .block:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/a/div/div/h1", "xpath:idRelative"],
+        ["xpath=//a/div/div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Do You Make These 6 Common Baking Mistakes?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f20544b-123b-4724-8a09-61b5865af792",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-5\\/6",
+      "targets": [
+        ["css=.h-5\\/6", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a889174e-937a-4f62-b915-0c6f20857a1c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.text-xl:nth-child(1)",
+      "targets": [
+        ["css=.text-xl:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Do You Make These 6 Common Baking Mistakes?')]", "xpath:innerText"]
+      ],
+      "value": "Do You Make These 6 Common Baking Mistakes?"
+    }, {
+      "id": "fb3c3842-7a3e-40ed-a9d9-94b577126a6c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Blog",
+      "targets": [
+        ["linkText=Blog", "linkText"],
+        ["css=.md\\3A flex", "css:finder"],
+        ["xpath=//a[contains(text(),'Blog')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div[2]/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/GetBaking/blog')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Blog')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "203c0408-3c38-4f19-896d-6b6218a412b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(3) .my-4 > .block:nth-child(2)",
+      "targets": [
+        ["css=a:nth-child(3) .my-4 > .block:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/a[3]/div/div/h2", "xpath:idRelative"],
+        ["xpath=//a[3]/div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Written by vforvendetta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7e9772a-177e-4343-8c74-fed3313aec07",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-5\\/6",
+      "targets": [
+        ["css=.h-5\\/6", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7c587a0-23b6-493e-83c5-d06d53bb9628",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.text-xl:nth-child(1)",
+      "targets": [
+        ["css=.text-xl:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'11 Useful Tools For Baking')]", "xpath:innerText"]
+      ],
+      "value": "11 Useful Tools For Baking"
+    }]
+  }, {
+    "id": "21afda92-3afd-48f4-9175-2b8bd8711911",
+    "name": "Recipe List Link Test",
+    "commands": [{
+      "id": "9b0131ae-aa7d-4140-9678-34aee4692234",
+      "comment": "",
+      "command": "open",
+      "target": "https://josephsbrown.github.io/GetBaking/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b892ddfe-0520-4db6-92d1-b57ef96f3d6e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e1817663-933f-4c46-a1ed-9d5b30ac32d8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Recipes",
+      "targets": [
+        ["linkText=Recipes", "linkText"],
+        ["css=.hidden:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Recipes')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div[2]/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/GetBaking/recipes')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Recipes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba16b577-24d4-46b9-af1b-8462386cdd07",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Recipes",
+      "targets": [
+        ["linkText=Recipes", "linkText"],
+        ["css=.hidden:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Recipes')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div[2]/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/GetBaking/recipes')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Recipes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "559de03e-b62b-4d33-851a-b57b53163dcb",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(2) .block:nth-child(3)",
+      "targets": [
+        ["css=a:nth-child(2) .block:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/a[2]/div/div/h3", "xpath:idRelative"],
+        ["xpath=//a[2]/div/div/h3", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4b667ce-e5d1-430f-9393-ef44f4169b35",
+      "comment": "",
+      "command": "click",
+      "target": "css=.py-3 > .flex-wrap",
+      "targets": [
+        ["css=.py-3 > .flex-wrap", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "312589a5-c496-4434-a0fd-19ed0b32af5e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.flex-wrap > .text-xl",
+      "targets": [
+        ["css=.flex-wrap > .text-xl", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Soft Burger Buns')]", "xpath:innerText"]
+      ],
+      "value": "Soft Burger Buns"
+    }, {
+      "id": "07f95ff1-3a32-41bf-822f-fd1bc85d52c2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Recipes",
+      "targets": [
+        ["linkText=Recipes", "linkText"],
+        ["css=.py-2:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Recipes')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div[2]/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/GetBaking/recipes')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Recipes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdfeca5e-b2e8-430c-8f73-276d59d2c6c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(3) .my-4 > .block:nth-child(2)",
+      "targets": [
+        ["css=a:nth-child(3) .my-4 > .block:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/a[3]/div/div/h2", "xpath:idRelative"],
+        ["xpath=//a[3]/div/div/h2", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fde76089-4da8-4e3c-95aa-733f7b6436a9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1216)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c120feb0-a2c4-4f29-8e18-b46045d11134",
+      "comment": "",
+      "command": "click",
+      "target": "css=.py-3 > .flex-wrap",
+      "targets": [
+        ["css=.py-3 > .flex-wrap", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91f00c63-83e7-42f2-b86d-7d34ee32cffb",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.flex-wrap > .text-xl",
+      "targets": [
+        ["css=.flex-wrap > .text-xl", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Chocolate Orange Babka')]", "xpath:innerText"]
+      ],
+      "value": "Chocolate Orange Babka"
+    }, {
+      "id": "1401b0be-5f9e-437c-9529-4576d918760b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Recipes",
+      "targets": [
+        ["linkText=Recipes", "linkText"],
+        ["css=.py-2:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Recipes')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div[2]/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/GetBaking/recipes')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Recipes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c92dc1a0-d766-4d98-8669-00c8ed64d6b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-xl",
+      "targets": [
+        ["css=.text-xl", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Recipes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4d5affb-2f79-4032-a109-0a232a2a3fd7",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.text-xl",
+      "targets": [
+        ["css=.text-xl", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Recipes')]", "xpath:innerText"]
+      ],
+      "value": "Recipes"
+    }]
+  }, {
+    "id": "f742e8e8-0ea0-41f9-8389-fd9e11b4b47f",
+    "name": "Blog Page Component Verify Test",
+    "commands": [{
+      "id": "5de86e5a-9504-40bb-bf3f-472e6008ac22",
+      "comment": "",
+      "command": "open",
+      "target": "https://josephsbrown.github.io/GetBaking/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "18c0dc2a-467f-43d3-9d41-871c5966725f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b415e81-3bdf-465a-beeb-0b3ed1d34135",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Blog",
+      "targets": [
+        ["linkText=Blog", "linkText"],
+        ["css=.md\\3A flex", "css:finder"],
+        ["xpath=//a[contains(text(),'Blog')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div[2]/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/GetBaking/blog')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Blog')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c3e30f7-404d-4260-b98a-e6e1eb6161a8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Blog",
+      "targets": [
+        ["linkText=Blog", "linkText"],
+        ["css=.md\\3A flex", "css:finder"],
+        ["xpath=//a[contains(text(),'Blog')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div[2]/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/GetBaking/blog')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Blog')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9df762d5-ed78-46d9-ad1a-c07da5a07f57",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(1) .block:nth-child(3)",
+      "targets": [
+        ["css=a:nth-child(1) .block:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/a/div/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum nibh ut nisi imperdiet feugiat...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "34d0a724-121d-49bc-8941-cfd6d02dd607",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=a:nth-child(1) .block:nth-child(3)",
+      "targets": [
+        ["css=a:nth-child(1) .block:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/a/div/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum nibh ut nisi imperdiet feugiat...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "19671ef8-e4bf-47dc-a50c-8aa3409c3677",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.h-5\\/6",
+      "targets": [
+        ["css=.h-5\\/6", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": "459,41"
+    }, {
+      "id": "91f8b317-2fe2-40ad-933e-1cfc5d2ea785",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.text-xl:nth-child(1)",
+      "targets": [
+        ["css=.text-xl:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Do You Make These 6 Common Baking Mistakes?')]", "xpath:innerText"]
+      ],
+      "value": "440,21"
+    }, {
+      "id": "0a4dcf46-2d8c-4249-b3a0-10cb4282c68b",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.text-xl:nth-child(1)",
+      "targets": [
+        ["css=.text-xl:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Do You Make These 6 Common Baking Mistakes?')]", "xpath:innerText"]
+      ],
+      "value": "440,21"
+    }, {
+      "id": "33439342-a8cf-4e53-884d-ba9a13249270",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-5\\/6",
+      "targets": [
+        ["css=.h-5\\/6", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11813def-7b50-4ef5-adb0-a69adc82ba2a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-xl:nth-child(1)",
+      "targets": [
+        ["css=.text-xl:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Do You Make These 6 Common Baking Mistakes?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "347f9ddf-cd68-496d-8a47-7990632a4cdb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-xl:nth-child(1)",
+      "targets": [
+        ["css=.text-xl:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Do You Make These 6 Common Baking Mistakes?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "828a5db4-4f75-4236-ad54-8512a7f97fea",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.text-xl:nth-child(1)",
+      "targets": [
+        ["css=.text-xl:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Do You Make These 6 Common Baking Mistakes?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6346cf52-56ab-4789-a908-6c286261c5b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-xl:nth-child(1)",
+      "targets": [
+        ["css=.text-xl:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Do You Make These 6 Common Baking Mistakes?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b00d24e-fda8-45df-8c6d-1231e0d510c7",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.text-xl:nth-child(1)",
+      "targets": [
+        ["css=.text-xl:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Do You Make These 6 Common Baking Mistakes?')]", "xpath:innerText"]
+      ],
+      "value": "Do You Make These 6 Common Baking Mistakes?"
+    }, {
+      "id": "7e23674e-8b5e-4ce5-ab23-c3116d6bff8e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.w-2\\/3",
+      "targets": [
+        ["css=.w-2\\/3", "css:finder"],
+        ["xpath=//img[contains(@src,'https://images.pexels.com/photos/4084927/pexels-photo-4084927.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')]", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc12467b-a7f1-4f62-bc6a-2d3fe3540599",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.rounded-full",
+      "targets": [
+        ["css=.rounded-full", "css:finder"],
+        ["xpath=//img[contains(@src,'https://images.pexels.com/photos/789303/pexels-photo-789303.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')]", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div[2]/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6918f5f2-4e6e-4666-bba2-f19ee8a3ab2f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.px-1",
+      "targets": [
+        ["css=.px-1", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9655edb4-f5d7-445a-855d-819fb099932b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.py-16",
+      "targets": [
+        ["css=.py-16", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div[2]/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/h1", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bd5cef3-7a2c-4582-963a-ec4b19d30bb2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.py-16",
+      "targets": [
+        ["css=.py-16", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div[2]/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/h1", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7228e08-b57a-43fb-8d12-e25675efafe7",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=bexlovestobake",
+      "targets": [
+        ["linkText=bexlovestobake", "linkText"],
+        ["css=.text-xl:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'bexlovestobake')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div[2]/div/div/div/h1/a", "xpath:idRelative"],
+        ["xpath=//h1/a", "xpath:position"],
+        ["xpath=//a[contains(.,'bexlovestobake')]", "xpath:innerText"]
+      ],
+      "value": "bexlovestobake"
+    }, {
+      "id": "ef06ffdd-97fe-4274-a828-505113326bbc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-span-1:nth-child(3) > .rounded-2xl",
+      "targets": [
+        ["css=.col-span-1:nth-child(3) > .rounded-2xl", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ae9da9d-0438-4755-84e8-9abd7dfbbfea",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.col-span-1:nth-child(3) .text-sm",
+      "targets": [
+        ["css=.col-span-1:nth-child(3) .text-sm", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div[3]/div/div/p", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque luctus lectus nec eleifend eleifend. Vivamus in est vehicula, auctor ligula nec, sollicitudin ex. Fusce pellentesque dolor tincidunt elit luctus vehicula. Sed ornare nibh sit amet pretium lobortis. Phasellus pellentesque velit turpis, nec tristique erat convallis in. Etiam id consequat enim. Quisque gravida justo at venenatis facilisis. Etiam mattis finibus lobortis. Sed non tempor quam. Aenean eu nisi placerat, maximus purus vehicula, interdum massa. Integer vitae eleifend tortor. Sed dictum sapien ac hendrerit venenatis.Curabitur felis eros, convallis non nisi et, semper interdum sem. Nunc hendrerit quis arcu sit amet fermentum. Nunc erat odio, auctor sit amet sollicitudin non, fermentum id odio. Donec vehicula molestie elit, at fringilla felis viverra vitae. Phasellus porttitor, erat sed malesuada elementum, nisi arcu auctor ipsum, efficitur condimentum mi augue quis leo. Cras egestas lacus et risus rhoncus feugiat. Nullam eleifend viverra sem. Etiam finibus dui id lectus porta elementum. Proin malesuada congue scelerisque. Suspendisse nec cursus elit, non ullamcorper massa. Maecenas luctus mollis risus, sed sollicitudin quam. Morbi rutrum porttitor erat, a eleifend ipsum viverra eu. Aenean a congue sapien. Nullam mi odio, aliquet et ipsum sed, posuere elementum tortor.Duis accumsan consectetur nulla bibendum tempus. Cras facilisis risus sapien, quis maximus tortor dignissim nec. Cras elementum lorem eget metus imperdiet lacinia. Ut condimentum luctus nibh in semper. Sed efficitur tristique dolor eget ornare. Suspendisse eget consectetur mauris. Duis pellentesque, felis in mattis auctor, velit tortor aliquet nibh, eget dapibus sapien metus et ex. Sed feugiat nunc quam, vitae ornare sapien lacinia quis. Sed id pulvinar odio. Nulla mollis ante arcu. Phasellus sed tortor in nunc accumsan interdum.Quisque euismod ornare tellus, sed egestas sem fringilla nec. Nullam lectus magna, fringilla eget tincidunt eget, ullamcorper nec justo. Sed quis scelerisque urna, a accumsan ante. Donec eu eleifend elit. Donec ultrices, enim gravida ultrices interdum, ante urna bibendum leo, aliquet aliquam est mi sed neque. Pellentesque lacinia turpis eu sapien elementum, in tempor ex viverra. Pellentesque lectus urna, aliquam sed felis eget, commodo maximus ante.')]", "xpath:innerText"]
+      ],
+      "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque luctus lectus nec eleifend eleifend. Vivamus in est vehicula, auctor ligula nec, sollicitudin ex. Fusce pellentesque dolor tincidunt elit luctus vehicula. Sed ornare nibh sit amet pretium lobortis. Phasellus pellentesque velit turpis, nec tristique erat convallis in. Etiam id consequat enim. Quisque gravida justo at venenatis facilisis. Etiam mattis finibus lobortis. Sed non tempor quam. Aenean eu nisi placerat, maximus purus vehicula, interdum massa. Integer vitae eleifend tortor. Sed dictum sapien ac hendrerit venenatis.Curabitur felis eros, convallis non nisi et, semper interdum sem. Nunc hendrerit quis arcu sit amet fermentum. Nunc erat odio, auctor sit amet sollicitudin non, fermentum id odio. Donec vehicula molestie elit, at fringilla felis viverra vitae. Phasellus porttitor, erat sed malesuada elementum, nisi arcu auctor ipsum, efficitur condimentum mi augue quis leo. Cras egestas lacus et risus rhoncus feugiat. Nullam eleifend viverra sem. Etiam finibus dui id lectus porta elementum. Proin malesuada congue scelerisque. Suspendisse nec cursus elit, non ullamcorper massa. Maecenas luctus mollis risus, sed sollicitudin quam. Morbi rutrum porttitor erat, a eleifend ipsum viverra eu. Aenean a congue sapien. Nullam mi odio, aliquet et ipsum sed, posuere elementum tortor.Duis accumsan consectetur nulla bibendum tempus. Cras facilisis risus sapien, quis maximus tortor dignissim nec. Cras elementum lorem eget metus imperdiet lacinia. Ut condimentum luctus nibh in semper. Sed efficitur tristique dolor eget ornare. Suspendisse eget consectetur mauris. Duis pellentesque, felis in mattis auctor, velit tortor aliquet nibh, eget dapibus sapien metus et ex. Sed feugiat nunc quam, vitae ornare sapien lacinia quis. Sed id pulvinar odio. Nulla mollis ante arcu. Phasellus sed tortor in nunc accumsan interdum.Quisque euismod ornare tellus, sed egestas sem fringilla nec. Nullam lectus magna, fringilla eget tincidunt eget, ullamcorper nec justo. Sed quis scelerisque urna, a accumsan ante. Donec eu eleifend elit. Donec ultrices, enim gravida ultrices interdum, ante urna bibendum leo, aliquet aliquam est mi sed neque. Pellentesque lacinia turpis eu sapien elementum, in tempor ex viverra. Pellentesque lectus urna, aliquam sed felis eget, commodo maximus ante."
+    }, {
+      "id": "0c882d14-4c0c-4506-9948-27778506605b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-span-1:nth-child(4) .text-lg",
+      "targets": [
+        ["css=.col-span-1:nth-child(4) .text-lg", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div[4]/div/h1", "xpath:idRelative"],
+        ["xpath=//div[4]/div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Other Posts')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a7b7bcd-8cf9-4c7c-816f-7f5dda1fce49",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.col-span-1:nth-child(4) .text-lg",
+      "targets": [
+        ["css=.col-span-1:nth-child(4) .text-lg", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div[4]/div/h1", "xpath:idRelative"],
+        ["xpath=//div[4]/div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Other Posts')]", "xpath:innerText"]
+      ],
+      "value": "Other Posts"
+    }, {
+      "id": "7e71eceb-b176-4d32-83a5-d659d0e6ec4a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=a:nth-child(1) .drop-shadow-2xl .block:nth-child(1)",
+      "targets": [
+        ["css=a:nth-child(1) .drop-shadow-2xl .block:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div[4]/div/div/a/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/h1", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b5c9b624-6e3d-4e61-8259-d0dd025e3344",
+    "name": "Blog Page Related Link Test",
+    "commands": [{
+      "id": "db8861bb-db50-4b3f-91b3-5b293ed49773",
+      "comment": "",
+      "command": "open",
+      "target": "https://josephsbrown.github.io/GetBaking/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba2af17f-014d-4ebf-bbbe-0cbb4bd8deed",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8618d0b7-074e-4ba1-89af-498cb16ccf30",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Blog",
+      "targets": [
+        ["linkText=Blog", "linkText"],
+        ["css=.md\\3A flex", "css:finder"],
+        ["xpath=//a[contains(text(),'Blog')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div[2]/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/GetBaking/blog')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Blog')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "45ffd2c1-0618-408b-a601-0f9b51d36ace",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(1) .my-4 > .block:nth-child(2)",
+      "targets": [
+        ["css=a:nth-child(1) .my-4 > .block:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/a/div/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Written by bexlovestobake')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f95a1132-e5a7-4594-9f67-2ed6fe5d845b",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(1) .my-4 > .block:nth-child(2)",
+      "targets": [
+        ["css=a:nth-child(1) .my-4 > .block:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div[4]/div/div/a/div/div/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Written by bexlovestobake')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f432d0e6-5b2a-497a-9909-46955dd34b4d",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(2) .h-20",
+      "targets": [
+        ["css=a:nth-child(2) .h-20", "css:finder"],
+        ["xpath=//img[@alt='24 Hours to Improving Baking']", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div[4]/div/div/a[2]/div/div/img", "xpath:idRelative"],
+        ["xpath=//a[2]/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0dad09f6-c971-4ce5-8628-23701d7b91a1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-xl:nth-child(1)",
+      "targets": [
+        ["css=.text-xl:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'24 Hours to Improving Baking')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba800cb7-36f6-4a73-bf00-43cc82b5f408",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.text-xl:nth-child(1)",
+      "targets": [
+        ["css=.text-xl:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'24 Hours to Improving Baking')]", "xpath:innerText"]
+      ],
+      "value": "24 Hours to Improving Baking"
+    }, {
+      "id": "34c8b129-9083-4e47-ae3b-9c7b65bdc430",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(1) .block:nth-child(3)",
+      "targets": [
+        ["css=a:nth-child(1) .block:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div[4]/div/div/a/div/div/div/p", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum nibh ut nisi imperdiet feugiat...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "db0ff61f-f38b-447d-bdd5-1e3756a7198b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-5\\/6",
+      "targets": [
+        ["css=.h-5\\/6", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b543241d-aed9-44b6-8616-03bda7247680",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.text-xl:nth-child(1)",
+      "targets": [
+        ["css=.text-xl:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Do You Make These 6 Common Baking Mistakes?')]", "xpath:innerText"]
+      ],
+      "value": "Do You Make These 6 Common Baking Mistakes?"
+    }, {
+      "id": "71a9b17f-52c1-4164-a6ba-e24c0bdb0797",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-5\\/6",
+      "targets": [
+        ["css=.h-5\\/6", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ca78a841-7684-4243-aab8-8d503eadbc06",
+    "name": "Recipe Page Interactivity Test",
+    "commands": [{
+      "id": "3d91842a-c7bb-4600-a7be-df571f524877",
+      "comment": "",
+      "command": "open",
+      "target": "https://josephsbrown.github.io/GetBaking/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6986f621-1ed3-4cac-91d3-8c8401ccf290",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b892098-2b15-4480-997f-355cfb5f7437",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Recipes",
+      "targets": [
+        ["linkText=Recipes", "linkText"],
+        ["css=.hidden:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Recipes')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div[2]/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/GetBaking/recipes')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Recipes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e28c683-e090-4d93-9d37-885f677e165b",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(2) .block:nth-child(3) > .underline",
+      "targets": [
+        ["css=a:nth-child(2) .block:nth-child(3) > .underline", "css:finder"],
+        ["xpath=(//a[contains(text(),'Easy')])[2]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/a[2]/div/div/h3/a", "xpath:idRelative"],
+        ["xpath=//a[2]/div/div/h3/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07bacfb3-2902-44a2-ae4d-5ed3eacb6675",
+      "comment": "",
+      "command": "click",
+      "target": "css=.py-3 > .flex-wrap",
+      "targets": [
+        ["css=.py-3 > .flex-wrap", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9adf9ec-10c2-4a96-8f7f-a1ad230648ed",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.flex-wrap > .text-xl",
+      "targets": [
+        ["css=.flex-wrap > .text-xl", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Soft Burger Buns')]", "xpath:innerText"]
+      ],
+      "value": "Soft Burger Buns"
+    }, {
+      "id": "9ade1f82-f7f7-408c-be5d-b4ee1e3beacd",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.h-5\\/6:nth-child(2) > .text-lg",
+      "targets": [
+        ["css=.h-5\\/6:nth-child(2) > .text-lg", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div[2]/h1", "xpath:idRelative"],
+        ["xpath=//div[2]/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Ingredients')]", "xpath:innerText"]
+      ],
+      "value": "Ingredients"
+    }, {
+      "id": "d2f43c9f-833f-4710-9316-4245876a2404",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-none:nth-child(1) > .mx-4",
+      "targets": [
+        ["css=.list-none:nth-child(1) > .mx-4", "css:finder"],
+        ["xpath=//input[@type='checkbox']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div[2]/p/li/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2979a65f-dd0a-405e-a5d5-0f49b12bac05",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-none:nth-child(2) > .mx-4",
+      "targets": [
+        ["css=.list-none:nth-child(2) > .mx-4", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div[2]/p/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3cb44278-5441-4650-875f-3c5a99c62f1c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-none:nth-child(3) > .mx-4",
+      "targets": [
+        ["css=.list-none:nth-child(3) > .mx-4", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div[2]/p/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03e2e47e-3fcc-4a1d-8b5f-b0dca038c305",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-none:nth-child(4) > .mx-4",
+      "targets": [
+        ["css=.list-none:nth-child(4) > .mx-4", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div[2]/p/li[4]/input", "xpath:idRelative"],
+        ["xpath=//li[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ae4a836-8a3c-4044-8c2a-25d3d562b34d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-none:nth-child(5) > .mx-4",
+      "targets": [
+        ["css=.list-none:nth-child(5) > .mx-4", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div[2]/p/li[5]/input", "xpath:idRelative"],
+        ["xpath=//li[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba0a3a71-24f6-4109-8cf5-5fd8ced4adc7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-none:nth-child(6) > .mx-4",
+      "targets": [
+        ["css=.list-none:nth-child(6) > .mx-4", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div[2]/p/li[6]/input", "xpath:idRelative"],
+        ["xpath=//li[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4d75067-2c4c-4d5f-87c4-86d10f8a5837",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-none:nth-child(7) > .mx-4",
+      "targets": [
+        ["css=.list-none:nth-child(7) > .mx-4", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div[2]/p/li[7]/input", "xpath:idRelative"],
+        ["xpath=//li[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7172bea1-9357-4f65-b6a7-ad378df1d97b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-5\\/6:nth-child(2)",
+      "targets": [
+        ["css=.h-5\\/6:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9943655-9114-4cd7-bc50-05ca04274c95",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-full:nth-child(2) > .flex-wrap > .text-lg",
+      "targets": [
+        ["css=.w-full:nth-child(2) > .flex-wrap > .text-lg", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div[2]/div/h1", "xpath:idRelative"],
+        ["xpath=//div[2]/div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Directions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6971d0c1-514c-45b3-9dcc-983d527d84d1",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.w-full:nth-child(2) > .flex-wrap > .text-lg",
+      "targets": [
+        ["css=.w-full:nth-child(2) > .flex-wrap > .text-lg", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div[2]/div/h1", "xpath:idRelative"],
+        ["xpath=//div[2]/div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Directions')]", "xpath:innerText"]
+      ],
+      "value": "Directions"
+    }, {
+      "id": "0cb277fe-873e-49aa-b660-4218ec1a7d51",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-decimal:nth-child(1) > .mx-4",
+      "targets": [
+        ["css=.list-decimal:nth-child(1) > .mx-4", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[8]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div[2]/div/div/li/input", "xpath:idRelative"],
+        ["xpath=//div/li/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6963635e-ac9b-4b6a-b4fe-5f439dcd4674",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-decimal:nth-child(2) > .mx-4",
+      "targets": [
+        ["css=.list-decimal:nth-child(2) > .mx-4", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div[2]/div/div/li[2]/input", "xpath:idRelative"],
+        ["xpath=//div/li[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9304c678-de6a-4c4d-8f60-2ef5a1df6dc0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-decimal:nth-child(3) > .mx-4",
+      "targets": [
+        ["css=.list-decimal:nth-child(3) > .mx-4", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[10]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div[2]/div/div/li[3]/input", "xpath:idRelative"],
+        ["xpath=//div/li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ef7f54b9-c249-447f-a3b4-8501fedf18d8",
+    "name": "Recipe Page PDF Test",
+    "commands": [{
+      "id": "26584621-a754-48b1-b1d0-c70ca8b4dd21",
+      "comment": "",
+      "command": "open",
+      "target": "https://josephsbrown.github.io/GetBaking/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f26c55d-65fc-402f-8d38-862b53689cc8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3deb223-c8ff-414d-9dfa-f345c4997c15",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Recipes",
+      "targets": [
+        ["linkText=Recipes", "linkText"],
+        ["css=.hidden:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Recipes')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div[2]/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/GetBaking/recipes')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Recipes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d1fc1ae-b151-4478-81a6-614446fa3784",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(1) .my-4",
+      "targets": [
+        ["css=a:nth-child(1) .my-4", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/a/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e5027eb-44c6-4e79-af90-8a62fbdd72f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.my-5 > .fa-solid",
+      "targets": [
+        ["css=.my-5 > .fa-solid", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/div/div/button/i", "xpath:idRelative"],
+        ["xpath=//button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ed53924-7586-4f20-8ef6-d70b30cfc035",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.animated .my-1:nth-child(2)",
+      "targets": [
+        ["css=.animated .my-1:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[3]/div/div/div[2]/div[5]/div/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "782809d7-e956-4a75-9688-694bc32783d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-green-600",
+      "targets": [
+        ["css=.bg-green-600", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[3]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Download')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6d26173-050a-4734-968f-80f962d40d92",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.bg-green-600",
+      "targets": [
+        ["css=.bg-green-600", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[3]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Download')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3d745b9-63ea-475a-a594-265054595149",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.bg-green-600",
+      "targets": [
+        ["css=.bg-green-600", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[3]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Download')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "72b727c9-aaf2-4f86-93f7-08fda723052a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-red-600:nth-child(2)",
+      "targets": [
+        ["css=.bg-red-600:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[3]/div/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Close')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3740f29-8969-47d1-84c9-6a73419856b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.py-3 > .flex-wrap",
+      "targets": [
+        ["css=.py-3 > .flex-wrap", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4402cbc-496f-49e7-a4af-9ee39164d739",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.flex-wrap > .text-xl",
+      "targets": [
+        ["css=.flex-wrap > .text-xl", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Easy Mince Pies')]", "xpath:innerText"]
+      ],
+      "value": "Easy Mince Pies"
+    }]
+  }, {
+    "id": "08ce293e-9894-4a1d-9cc6-d18ec400b475",
+    "name": "Recipe Page Social Media Test",
+    "commands": [{
+      "id": "db86a373-ebfd-43ec-9dea-1faefda90612",
+      "comment": "",
+      "command": "open",
+      "target": "https://josephsbrown.github.io/GetBaking/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14a9ae7e-a6ec-4a84-8729-1d143b3b25e8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a59bbdf-92c5-4db6-b907-32119aa39e3b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Recipes",
+      "targets": [
+        ["linkText=Recipes", "linkText"],
+        ["css=.hidden:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Recipes')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/nav/div/div[2]/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/GetBaking/recipes')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Recipes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c77800d-a0d5-4bb9-ac18-8e6582875211",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(2) > .flow-root .block:nth-child(1)",
+      "targets": [
+        ["css=a:nth-child(2) > .flow-root .block:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/a[2]/div/div/h1", "xpath:idRelative"],
+        ["xpath=//a[2]/div/div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Soft Burger Buns')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c108a7c-5b72-4bf5-8150-62a4c7a4875a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.fa-twitter",
+      "targets": [
+        ["css=.fa-twitter", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/div/div/a/i", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e460746a-757f-41ba-bd50-2b70f099cba7",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.fb-xfbml-parse-ignore",
+      "targets": [
+        ["css=.fb-xfbml-parse-ignore", "css:finder"],
+        ["xpath=//a[contains(text(),'Share')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/div/div/a[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fjosephsbrown.github.io%2FGetBaking&src=sdkpreparse')]", "xpath:href"],
+        ["xpath=//a[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "faebba32-24a8-45d3-b565-c1930ab1c5b9",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Get Baking!",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "80685240-9caa-4674-a221-61a6071e66c7",
+    "name": "Get Baking! Test Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["706078aa-669d-44c5-b8cf-7e7fc3115d20", "b67cb933-6f16-48a2-8758-5b21356f3bfe", "191061df-690f-45c6-bc9c-9a2dc5242065", "4a1c6390-9d7f-4bfd-b557-37c34e37c900", "2acd3756-66bf-45d0-8004-40e03ddee5ef", "8ccf56b5-779c-4999-8bd2-63fdec1a8bf3", "357edb0e-672f-4957-a9e9-dc3e0dca958c", "0bdc363f-e0b4-4bf5-83a2-4e52dfd61732", "aeba4442-2c36-45c5-86f3-f2c767bb0237", "4cef098d-1726-4b3d-9021-9351ec394615", "f7eb7302-088d-4789-9014-62e286b915f1", "f742e8e8-0ea0-41f9-8389-fd9e11b4b47f", "21afda92-3afd-48f4-9175-2b8bd8711911", "b5c9b624-6e3d-4e61-8259-d0dd025e3344", "ca78a841-7684-4243-aab8-8d503eadbc06", "ef7f54b9-c249-447f-a3b4-8501fedf18d8"]
+  }],
+  "urls": ["https://josephsbrown.github.io/", "https://josephsbrown.github.io/GetBaking/"],
+  "plugins": []
+}
