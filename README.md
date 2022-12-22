@@ -9,7 +9,8 @@ The Design Document Can be Found in the Design Documentation Folder: [GetBaking/
 Or at the Following Link: https://docs.google.com/document/d/16X7WKHV-L1GG8az2Xu4O1R4IicUQxkbQ-zKyVbVrIhg/edit?usp=sharing
 
 ### Evidence of Testing
-Evidence of Testing can be found in the aforementioned Design Document or can be found in the Evidence of Testing in the Test Suite Folder: [GetBaking/Test Suite/Evidence of Testing](https://github.com/JosephSBrown/GetBaking/tree/main/Test%20Suite/Evidence%20of%20Testing) "GetBaking/Test Suite/Evidence of Testing")
+Evidence of Testing can be found in the aforementioned Design Document or can be found in the Evidence of Testing in the Test Suite Folder: [GetBaking/Test Suite/Evidence of Testing](https://github.com/JosephSBrown/GetBaking/tree/main/Test%20Suite/Evidence%20of%20Testing "GetBaking/Test Suite/Evidence of Testing")
+
 and the Test Suite itself can be found in the Test Suite Folder: [GetBaking/Test Suite](https://github.com/JosephSBrown/GetBaking/tree/main/Test%20Suite) "GetBaking/Test Suite")
 
 ## Get Baking!
