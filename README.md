@@ -15,7 +15,7 @@ Or can be found in the Evidence of Testing in the Test Suite Folder: [GetBaking/
 and the Test Suite itself can be found in the Test Suite Folder: [GetBaking/Test Suite](https://github.com/JosephSBrown/GetBaking/tree/main/Test%20Suite "GetBaking/Test Suite")
 
 ## Get Baking!
-The task was to create an interactive website for the Client: Get Baking! The client wanted a website that can demonstrate their aim, a section for seasonal and popular recipes, and a blog.
+The task was to create an interactive website for the Client: Get Baking! The client wanted a website that can demonstrate their aim, a number of recipes, and a blog.
 
 The client requested the Following Colours:
 - ![#ff80c4](https://placehold.co/15x15/ff80c4/ff80c4.png) `#ff80c4`
